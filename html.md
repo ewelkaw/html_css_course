@@ -53,3 +53,32 @@ Useful tags:
     <th>Purpose</th>
   </tr>
 </table>
+
+<div>block_element</div>
+<span>inline_element</span>
+
+<ol>
+  <li>ordered_list_element_1</li>
+  <li>ordered_list_element_2</li>
+  <li>ordered_list_element_3</li>
+</ol>
+
+<ul>
+  <li>unordered_list_element_1</li>
+  <li>unordered_list_element_2</li>
+  <li>unordered_list_element_3</li>
+</ul>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Navigation menu presentation</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+
+    <div>
+      <a href="index.html">Home</a>
+      <a href="moby_dick.html">Moby Dick</a>
+      <a href="tags.html">HTML Tags</a>
+    </div>
