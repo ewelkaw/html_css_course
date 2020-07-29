@@ -24,3 +24,18 @@ The prototypical HTML skeleton begins with an html tag containing two elements, 
   </body>
 </html>
 ```
+Useful tags:
+
+<p>paragraph</p>
+
+<strong>bold</strong>
+
+<em>italics</em> 
+
+<em><strong>bold_and_italic</strong></em>
+
+<a href="https://learnenough.com/email">link</a>
+
+<a href="https://learnenough.com/email"><em>link_and_italic</em></a>
+
+<img src="https://lh3.googleusercontent.com/M1XTibfCgpi5pgjSDb7kXDh21N8fpn-8evzQVAX-qGFhSyArDmSuCAv1pjVp4jbAt_g=w412-h220-rw" alt="image">
