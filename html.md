@@ -39,3 +39,17 @@ Useful tags:
 <a href="https://learnenough.com/email"><em>link_and_italic</em></a>
 
 <img src="https://lh3.googleusercontent.com/M1XTibfCgpi5pgjSDb7kXDh21N8fpn-8evzQVAX-qGFhSyArDmSuCAv1pjVp4jbAt_g=w412-h220-rw" alt="image">
+
+<a href="https://learnenough.com/email">
+  <img src="https://lh3.googleusercontent.com/M1XTibfCgpi5pgjSDb7kXDh21N8fpn-8evzQVAX-qGFhSyArDmSuCAv1pjVp4jbAt_g=w412-h220-rw" alt="An adorable kitten">
+</a>
+
+<code>code_tag</code>
+
+<table>
+  <tr>
+    <th>Tag</th>
+    <th>Name</th>
+    <th>Purpose</th>
+  </tr>
+</table>
