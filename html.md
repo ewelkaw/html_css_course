@@ -82,3 +82,19 @@ Useful tags:
       <a href="moby_dick.html">Moby Dick</a>
       <a href="tags.html">HTML Tags</a>
     </div>
+
+Style in html:
+
+```html
+ <table style="width: 100%;">
+```
+
+Style in CSS:
+```css
+  table {
+    width: 100%;
+  }
+```
+
+<blockquote style="font-style: italic; font-size: 20px;">
+</blockquote>
