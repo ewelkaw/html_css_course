@@ -135,3 +135,42 @@ source: https://www.learnenough.com/course/css_and_layout/style-of-style/specifi
 There’s another bad way of getting a style to apply, and that is to use the !important flag to the declaration, which automatically overrides any conflicting styles (Table 2.1). You should think about !important (read “important”; the “!” is silent) like this: if you’ve had to use !important, then you’ve failed at styling something.
 
 The problem with using !important is that once you start using it, there’s a tendency to use it more and more over time, since the only way to overcome a style that was applied with !important is to use another !important. Such proliferating !important rules are the tribbles of CSS.
+
+**Colors**
+In addition to using RGB hex, you can also use RGB directly using rgb(), which allows you to use decimal numbers in place of hex. In other words, rgb(255, 255, 255) is the same as #ffffff, etc. But the main reason to use RGB directly is to set transparency via the rgba() command.
+
+In rgba(), the a stands for alpha, because the conventional name for transparency level in image processing is the alpha level. The alpha level is indicated using a number between 0 and 1, where 0 is transparent, 1 is opaque, and decimals in between define all the levels of partial transparency (50% is 0.5, 25% is 0.25, etc.).
+
+For example, let’s make the social link’s background a transparent gray using rgba(). We’ll select a fairly dark gray, corresponding to RGB values of 150 each (out of 255), and initially set an opacity of 1 (Listing 3.3).
+
+```html
+/* GLOBAL STYLES */
+a {
+  color: #f00;
+}
+.social-link {
+  background: rgba(150, 150, 150, 1);
+  color: blue;
+}
+```
+
+**Sizing**
+```html
+h2 {
+  font-size: 30px;
+}
+
+/* BIO STYLES */
+.
+.
+.
+.bio-wrapper {
+  width: 500px;
+}
+.bio-box {
+  border: 1px solid black;
+  width: 50%;
+}
+```
+![Sizes](sizes.png) 
+Why it looks like that, because `bio-box` class has 50% of `bio-wrapper` width.
